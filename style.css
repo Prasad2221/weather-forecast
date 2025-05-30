@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top right, #1c1c2b, #3c3c5b);
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input {
+  padding: 10px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0077b6;
+  color: white;
+  cursor: pointer;
+}
+
+.current-weather {
+  margin-bottom: 30px;
+}
+
+.current-weather .temp {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.current-weather .desc {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.hourly-container {
+  margin-top: 20px;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.forecast-hour {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  width: 80px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.forecast-hour img {
+  width: 40px;
+}
